@@ -29,7 +29,7 @@ const Demo = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600"
+          className="text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-600"
         >
           Experience Heaven2Hell in Action
         </motion.h2>
@@ -53,7 +53,7 @@ const Demo = () => {
                 ></iframe>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-2 text-purple-300">{video.title}</h3>
+                <h3 className="text-2xl font-semibold mb-2 text-blue-300">{video.title}</h3>
                 <p className="text-gray-300">{video.description}</p>
               </div>
             </motion.div>
